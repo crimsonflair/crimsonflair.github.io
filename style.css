@@ -1,0 +1,102 @@
+body{
+    background-color: #f0e9e2;
+    background-repeat: no-repeat;
+    background-size: auto;
+}
+
+main{
+    font-family: system-ui, "Segoe UI", Roboto, Helvetica, Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol";
+    font-weight:400;
+    margin-top: 1rem;
+    margin-bottom: 1rem;
+}
+
+h1{
+    font-weight:400;
+}
+
+p{
+    font-weight:400;
+}
+
+ul{
+    display:inline-block
+}
+
+li{
+    text-align: left;
+}
+
+.title{
+    text-align: center;
+    padding: 20px;
+    font-size:400%;
+    font-style: italic;
+}
+
+.date{
+    font-style: italic;
+    font-size: large;
+    font-weight: 500;
+}
+
+.mystory-section{
+    display: block;
+    align-items: center;
+    margin-top:10px;
+    margin-bottom:10px;
+    margin-left:auto;
+    margin-right: auto;
+    height:20 px;
+    width:90%;
+}
+
+.mystory{
+    text-align:center;
+}
+
+#mystorycontent{
+    font-size: 200%;
+}
+
+.education-section {
+    display: flex;
+    justify-content: space-between; /* Equal space between items */
+    gap: 20px; /* Add spacing between each education div */
+    padding: 50px;
+}
+
+.educationlist{
+    font-size: larger;
+}
+
+  /* Each education div styling */
+  .education {
+    flex: 1; /* Make each div take up equal space */
+    padding: 15px;
+    text-align: center;
+    border-radius: 8px;
+  }
+
+.project-section {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px; /* Optional: adds some space between projects */
+    padding: 50px;
+}
+
+.project {
+    flex: 1 1 20%; /* Sets each project to take up 25% of the width */
+    box-sizing: border-box;
+    text-align: center;
+}
+
+.contact-section{
+    display:flex;
+}
+
+.contact{
+    flex: 1 1 10%;
+    box-sizing: border-box;
+    text-align: center;
+}
